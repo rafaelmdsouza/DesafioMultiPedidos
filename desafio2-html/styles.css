@@ -1,0 +1,88 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+header button:hover {
+  background-color: #218838;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.motoboy {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.motoboy:hover {
+  transform: translateY(-5px);
+}
+
+.nome-motoboy {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.info-motoboy {
+  display: none;
+}
+
+.motoboy:hover .info-motoboy {
+  display: block;
+}
+
+.info-motoboy p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.excluir {
+  background-color: #FF474C;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
